@@ -1,10 +1,10 @@
+// === Use your Railway backend URL here ===
+const BACKEND_URL = "https://your-backend-service.up.railway.app"; // <-- UPDATE THIS
+
 let generatedNotes = [];
 let djSynth, part;
 let isPlaying = false, progressTimer;
 let musicEndTime = 0;
-
-// === Use your Render backend URL here ===
-const BACKEND_URL = "https://molecule-dj-backend.onrender.com";
 
 window.addEventListener("DOMContentLoaded", () => {
     document.getElementById("loading").classList.add("hidden");
