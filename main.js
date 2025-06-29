@@ -1,5 +1,5 @@
 // === Use your Railway backend URL here ===
-const BACKEND_URL = "https://your-backend-service.up.railway.app"; // <-- UPDATE THIS
+const BACKEND_URL = "https://molecule-dj-backend-production.up.railway.app"; // <-- UPDATE THIS
 
 let generatedNotes = [];
 let djSynth, part;
