@@ -206,3 +206,58 @@ footer {
   background: rgba(45, 11, 78, 0.95);
   color: #ffb6e6;
 }
+/* Mobile Responsive Styles */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px; /* slightly smaller font */
+  }
+
+  .container {
+    max-width: 95%;
+    padding: 1rem;
+    border-radius: 12px;
+  }
+
+  input[type="text"] {
+    width: 100%; /* full width on mobile */
+    margin-right: 0;
+    margin-bottom: 0.75rem;
+  }
+
+  button {
+    width: 100%; /* full width button */
+    padding: 0.75rem;
+    font-size: 1.1rem;
+  }
+
+  .player-controls {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .player-controls button {
+    width: 100%;
+  }
+
+  svg#pianoRoll {
+    width: 100%;
+    height: auto;
+  }
+
+  header h1, header h2 {
+    font-size: 1.5rem;
+  }
+
+  .tagline {
+    font-size: 1rem;
+  }
+
+  ul {
+    padding-left: 1rem;
+  }
+
+  #moleculeSelect {
+    width: 100%;
+    font-size: 1rem;
+  }
+}
